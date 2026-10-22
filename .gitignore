@@ -1,0 +1,19 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs and local benchmark artifacts
+/target/
+/build/
+/runs/
+/data/raw/
+/data/private/
+/data/generated/
+
+# Operating system files
+.DS_Store
+Thumbs.db
